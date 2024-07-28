@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>📆 W-Week</title>
+        <link
+            rel="stylesheet"
+            as="style"
+            crossorigin
+            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+        />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>W-Week</h1>
+            <h2>주차 계산기</h2>
+            <p>현제 몇주차인지 계산합니다</p>
+            <form action="" id="add-week">
+                <label for="w-title">제목</label>
+                <input type="text" name="w-title" id="w-title" />
+                <label for="w-start-date">시작일</label>
+                <input type="date" name="w-start-date" value="" id="w-start-date" />
+                <input type="submit" value="추가" />
+            </form>
+            <ul class="week-list"></ul>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
